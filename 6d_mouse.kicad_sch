@@ -538,195 +538,6 @@
 				)
 			)
 		)
-		(symbol "Sensor_Magnetic:TLV493D"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV493D"
-				(at 5.08 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at -1.27 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-TLV493D-A1B6-DS-v01_00-EN.pdf?fileId=5546d462525dbac40152a6b85c760e80"
-				(at -3.81 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Low power 3D magnetic sensor, I2C interface, SOT-23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "magnetic field i2c"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV493D_0_1"
-				(rectangle
-					(start -7.62 10.16)
-					(end 6.35 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TLV493D_1_1"
-				(pin bidirectional line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "SCL/INT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "SDA/ADDR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -934,6 +745,234 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "vik:TMAG5273"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TMAG5273"
+				(at 0 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0.508 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmag5273.pdf"
+				(at -0.254 -12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3D Hall Effect Sensor"
+				(at 0.254 -8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Hall Effect Sensor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TMAG5273_0_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TMAG5273_1_1"
+				(text "GND\n"
+					(at -2.794 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "GND\n"
+					(at -2.794 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "INT"
+					(at 3.048 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "SCL\n"
+					(at -3.048 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "SDA\n"
+					(at 2.794 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "VCC"
+					(at 3.048 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1358,16 +1397,16 @@
 		)
 	)
 	(junction
-		(at 93.98 54.61)
+		(at 78.74 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "29048c17-8ed4-4850-bf41-94e5bf330e68")
+		(uuid "13159355-ea9d-4f89-ad0f-51741af5ae67")
 	)
 	(junction
-		(at 96.52 54.61)
+		(at 93.98 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "41386bf1-8ff3-4e7f-8c1b-5ed07e22eaaa")
+		(uuid "3704a1c9-07c0-465d-9195-a7c440a7e08f")
 	)
 	(junction
 		(at 49.53 64.77)
@@ -1376,28 +1415,16 @@
 		(uuid "41b15091-f367-45a2-9f82-243ded9e1669")
 	)
 	(junction
+		(at 110.49 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a6b4146-eede-4091-93d7-f645e74f2e94")
+	)
+	(junction
 		(at 120.65 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52627173-1e6b-4bce-be37-e3df71ca79be")
-	)
-	(junction
-		(at 78.74 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54575ec5-3885-459d-8e9e-1a12e6e00cc8")
-	)
-	(junction
-		(at 93.98 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58eddcc1-a6f9-4b64-8103-39bdd8a1d748")
-	)
-	(junction
-		(at 96.52 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f089c3c-f870-4674-b373-2a96b8a2b19d")
 	)
 	(junction
 		(at 127 74.93)
@@ -1406,22 +1433,16 @@
 		(uuid "6eb76670-d867-42f2-98a3-30a1a4051fc6")
 	)
 	(junction
-		(at 78.74 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75943aae-9e95-45d7-9089-1061c09e6e0e")
-	)
-	(junction
 		(at 64.77 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "867be592-093d-47c8-8fcc-284ab502825c")
 	)
 	(junction
-		(at 78.74 58.42)
+		(at 93.98 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a2f8f0ee-777d-4529-b5c3-d5e0e7daea51")
+		(uuid "a56d9ef9-d870-45a4-837f-f2487ebebb71")
 	)
 	(junction
 		(at 127 67.31)
@@ -1430,10 +1451,10 @@
 		(uuid "b0fb9b93-1dab-4510-a1b7-84981b778eed")
 	)
 	(junction
-		(at 96.52 81.28)
+		(at 125.73 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d7931167-e59b-4599-aea2-c8dfcaa18d64")
+		(uuid "ce780a61-f0e1-4929-b4ba-d9faaa13121d")
 	)
 	(junction
 		(at 120.65 64.77)
@@ -1454,10 +1475,6 @@
 		(uuid "62f0b79e-97d8-4977-ba12-77ee4bd5dd12")
 	)
 	(no_connect
-		(at 140.97 57.15)
-		(uuid "89f11163-4b53-4caa-b302-49d8f3900aa1")
-	)
-	(no_connect
 		(at 140.97 59.69)
 		(uuid "a4a98b1e-0a9a-4963-be56-c8d00a27639b")
 	)
@@ -1471,33 +1488,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 39.37) (xy 80.01 31.75)
+			(xy 114.3 40.64) (xy 110.49 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03555642-8113-46b5-a769-3774d34ed65a")
+		(uuid "06a89c89-0af9-41b5-a622-9cfd934f89ba")
 	)
 	(wire
 		(pts
-			(xy 78.74 58.42) (xy 78.74 64.77)
+			(xy 121.92 40.64) (xy 125.73 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a690095-a0bf-42ca-808d-bcbad86c9242")
-	)
-	(wire
-		(pts
-			(xy 78.74 72.39) (xy 78.74 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6b8110-d797-4bc7-a5ab-775ffac7d5a0")
+		(uuid "0785fb97-8150-4938-a32d-c76748d6b456")
 	)
 	(wire
 		(pts
@@ -1508,6 +1515,16 @@
 			(type default)
 		)
 		(uuid "11c420b9-a5b0-4b05-8c61-0fc1248a2ab6")
+	)
+	(wire
+		(pts
+			(xy 93.98 54.61) (xy 93.98 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12292354-9947-44dd-81d9-ad8c71c12f75")
 	)
 	(wire
 		(pts
@@ -1531,7 +1548,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 74.93) (xy 78.74 74.93)
+			(xy 64.77 74.93) (xy 93.98 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1551,33 +1568,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 46.99) (xy 80.01 54.61)
+			(xy 90.17 64.77) (xy 93.98 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f681a27-f9bf-4963-9341-48f03dea18c1")
-	)
-	(wire
-		(pts
-			(xy 99.06 81.28) (xy 96.52 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aec2396-8556-43d0-b5a2-48416b14a0b8")
-	)
-	(wire
-		(pts
-			(xy 99.06 54.61) (xy 96.52 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "321a9845-72a3-4d53-8145-e33d81c6d877")
+		(uuid "381ed002-c7f0-4a68-86f9-54f7308d0e9f")
 	)
 	(wire
 		(pts
@@ -1591,23 +1588,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 81.28) (xy 93.98 81.28)
+			(xy 93.98 74.93) (xy 93.98 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c3d97a8-de71-4e1f-809e-977004da9ecc")
-	)
-	(wire
-		(pts
-			(xy 96.52 54.61) (xy 93.98 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4307382a-f2ba-4ba1-88a8-875b6d56d7a9")
+		(uuid "5a240f9d-ab6d-4961-89e5-afafcab19664")
 	)
 	(wire
 		(pts
@@ -1631,13 +1618,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 81.28) (xy 93.98 81.28)
+			(xy 93.98 64.77) (xy 93.98 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "787e670d-27ba-47cd-a316-3bcff6163f71")
+		(uuid "741bc142-1502-4d8d-b4aa-7f7c7da84e98")
 	)
 	(wire
 		(pts
@@ -1671,16 +1658,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 74.93) (xy 78.74 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "877779c1-9980-4e6c-a57d-d66ea5b66a4d")
-	)
-	(wire
-		(pts
 			(xy 140.97 74.93) (xy 140.97 72.39)
 		)
 		(stroke
@@ -1691,13 +1668,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 31.75) (xy 96.52 31.75)
+			(xy 125.73 40.64) (xy 125.73 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "983d124a-b1b4-4b2a-ab4f-9c84fd183651")
+		(uuid "9fe9bb31-5226-4b16-9871-9f591bae0373")
 	)
 	(wire
 		(pts
@@ -1721,23 +1698,33 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 58.42) (xy 96.52 58.42)
+			(xy 125.73 30.48) (xy 125.73 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0fff823-0e3b-43bc-858c-03f22d562cc2")
+		(uuid "c10b742d-7ba5-4044-bfea-1adbb138712f")
 	)
 	(wire
 		(pts
-			(xy 80.01 54.61) (xy 93.98 54.61)
+			(xy 78.74 64.77) (xy 78.74 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e92925ce-f2d9-4c47-9a6d-090ce383c335")
+		(uuid "cac2d7f4-0bfa-4856-8406-5fc454d59063")
+	)
+	(wire
+		(pts
+			(xy 82.55 64.77) (xy 78.74 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29c0865-3d9f-4918-855f-21c6b79220eb")
 	)
 	(wire
 		(pts
@@ -1748,6 +1735,16 @@
 			(type default)
 		)
 		(uuid "eab80e2e-a6ce-45b4-b9c7-ca93d1a3c084")
+	)
+	(wire
+		(pts
+			(xy 110.49 40.64) (xy 110.49 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1649e7-d047-4856-8351-bf65adcde921")
 	)
 	(hierarchical_label "S2_OE"
 		(shape input)
@@ -1761,6 +1758,18 @@
 		)
 		(uuid "36248f2b-3bfe-49da-9ee3-b9f43235a3e9")
 	)
+	(hierarchical_label "S2_OE"
+		(shape input)
+		(at 140.97 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41e918fe-47b7-424b-b004-74983b2821da")
+	)
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 118.11 67.31 180)
@@ -1773,7 +1782,31 @@
 		)
 		(uuid "42411824-8847-4dab-8809-7ac0bf7b2e0c")
 	)
-	(hierarchical_label "S2_OE"
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 78.74 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56d71e97-f64b-4cb2-9505-fc0edcbc3f31")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 93.98 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72cca243-6e70-4538-b506-6bd83d9e33ef")
+	)
+	(hierarchical_label "INT"
 		(shape input)
 		(at 140.97 52.07 180)
 		(fields_autoplaced yes)
@@ -1783,11 +1816,11 @@
 			)
 			(justify right)
 		)
-		(uuid "54e0be49-5bbe-4b12-bdca-8387bbe110bd")
+		(uuid "92cfcded-497c-458a-94e1-b49a8d95b427")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 106.68 41.91 0)
+		(at 125.73 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1809,27 +1842,39 @@
 		)
 		(uuid "a891a6d2-351f-4f30-a323-95473ca4aadd")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "INT"
 		(shape input)
-		(at 106.68 68.58 0)
+		(at 78.74 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "b5043c25-8fb1-453a-bd9f-ce2a8dc7229d")
+		(uuid "a94f3794-e803-4b0a-ab72-2ece05ec58f9")
+	)
+	(hierarchical_label "INT"
+		(shape input)
+		(at 110.49 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4303b98-38ec-4773-b4c3-13facd13b0d8")
 	)
 	(hierarchical_label "SDA"
 		(shape input)
-		(at 106.68 44.45 0)
+		(at 110.49 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f50b52c6-d91d-4a0d-bfc8-86fec02c8e3b")
 	)
@@ -1844,6 +1889,86 @@
 			(justify right)
 		)
 		(uuid "fc75cb8c-bb61-43f5-8ebc-d8e10626d069")
+	)
+	(symbol
+		(lib_id "vik:TMAG5273")
+		(at 86.36 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06fa40ed-6afe-4f3e-b3a3-883a01aa7fc3")
+		(property "Reference" "U1"
+			(at 86.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TMAG5273"
+			(at 86.36 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 86.36 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmag5273.pdf"
+			(at 86.614 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3D Hall Effect Sensor"
+			(at 86.106 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3399b7e8-2c44-4bf1-9007-4e443b0a8d16")
+		)
+		(pin "5"
+			(uuid "034a3d9f-f427-459c-95ea-422e91aad198")
+		)
+		(pin "3"
+			(uuid "072c079a-13cb-4e08-a595-962b2f123771")
+		)
+		(pin "2"
+			(uuid "cc60f4bd-9cfd-4d39-962c-d60d3f78a981")
+		)
+		(pin "6"
+			(uuid "c1270535-d412-4a84-913e-e52ed9a5ce0d")
+		)
+		(pin "1"
+			(uuid "eede5406-34d0-4ccb-b42e-4afa8cc76963")
+		)
+		(instances
+			(project "6d_mouse"
+				(path "/86a2bcde-12ae-4cd8-a215-c4728955bebf"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -1979,154 +2104,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 78.74 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12cbd731-2b36-4891-99f8-8ceae93edfea")
-		(property "Reference" "#PWR05"
-			(at 78.74 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28d9a2c7-ee04-4d26-82f9-e2d1b58aae29")
-		)
-		(instances
-			(project "6d_mouse"
-				(path "/86a2bcde-12ae-4cd8-a215-c4728955bebf"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Magnetic:TLV493D")
-		(at 96.52 71.12 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "162fb671-5970-4baf-ae29-391b620784f8")
-		(property "Reference" "U2"
-			(at 103.886 63.754 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TLV493D"
-			(at 103.886 66.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 97.79 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-TLV493D-A1B6-DS-v01_00-EN.pdf?fileId=5546d462525dbac40152a6b85c760e80"
-			(at 100.33 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low power 3D magnetic sensor, I2C interface, SOT-23-6"
-			(at 96.52 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5d4a6d17-df43-4581-8d63-b1010abb611a")
-		)
-		(pin "6"
-			(uuid "790b5292-2e46-4bba-848e-c7280574e564")
-		)
-		(pin "4"
-			(uuid "711b9345-e941-4953-9d87-493072f4b6d5")
-		)
-		(pin "5"
-			(uuid "81f60506-e6dd-430f-a689-3031dac3e905")
-		)
-		(pin "1"
-			(uuid "6f7b6033-082b-493f-a937-087eac941c3d")
-		)
-		(pin "2"
-			(uuid "9ff547d3-23de-420a-b239-405d282158e1")
-		)
-		(instances
-			(project "6d_mouse"
-				(path "/86a2bcde-12ae-4cd8-a215-c4728955bebf"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "vik:vik-module-connector")
 		(at 148.59 57.15 0)
 		(unit 1)
@@ -2227,35 +2204,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 80.01 43.18 0)
+		(lib_id "power:GND")
+		(at 93.98 58.42 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2de64d98-dcc6-44bc-a425-4f6f782f1f2b")
-		(property "Reference" "C3"
-			(at 83.82 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 83.82 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 80.9752 46.99 0)
+		(uuid "3be44db1-03a2-44cb-998b-c844fab6dec0")
+		(property "Reference" "#PWR05"
+			(at 100.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,69 +2223,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 80.01 43.18 0)
+		(property "Value" "GND"
+			(at 97.79 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 80.01 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d38368e-a864-4da0-8e45-6f910615aa79")
-		)
-		(pin "1"
-			(uuid "a349933c-1ec2-4deb-a494-e9f62c86cf51")
-		)
-		(instances
-			(project "6d_mouse"
-				(path "/86a2bcde-12ae-4cd8-a215-c4728955bebf"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 96.52 31.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3839afb3-69d0-4be6-af21-a72c3346d2a4")
-		(property "Reference" "#PWR04"
-			(at 96.52 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 96.52 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 31.75 0)
+			(at 93.98 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +2242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 31.75 0)
+			(at 93.98 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,8 +2250,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 96.52 31.75 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,12 +2260,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4506aa01-9ef6-4d0a-86b1-0cb22111f28f")
+			(uuid "efa19519-a2cc-43c4-ad1a-41ca98742dcd")
 		)
 		(instances
 			(project "6d_mouse"
 				(path "/86a2bcde-12ae-4cd8-a215-c4728955bebf"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2502,16 +2410,17 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 54.61 0)
+		(at 125.73 34.29 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5aad93d7-dc96-4a8f-8aac-4b3313cb028f")
+		(uuid "505e2e15-0f44-4489-87c1-2107a87ceaae")
 		(property "Reference" "#PWR06"
-			(at 96.52 60.96 0)
+			(at 132.08 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,15 +2429,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 59.69 0)
+			(at 129.54 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 54.61 0)
+			(at 125.73 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +2447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 54.61 0)
+			(at 125.73 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +2456,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 54.61 0)
+			(at 125.73 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +2465,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e13d099-4903-46d7-9f68-4319c7412b49")
+			(uuid "4b7203ec-0dcb-48a6-90ad-0ad030ecc83a")
 		)
 		(instances
 			(project "6d_mouse"
@@ -2764,76 +2674,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 78.74 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91afcb4c-47e4-40f7-90a7-2d4f50d7bde5")
-		(property "Reference" "C2"
-			(at 82.55 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 82.55 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 79.7052 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 78.74 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c32ef3ee-e0f5-461d-8968-22ef12105399")
-		)
-		(pin "1"
-			(uuid "e2bc262f-96fb-4f34-b5b2-eec077f33137")
-		)
-		(instances
-			(project "6d_mouse"
-				(path "/86a2bcde-12ae-4cd8-a215-c4728955bebf"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 35.56 100.33 0)
 		(unit 1)
@@ -2962,6 +2802,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 118.11 40.64 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f18cc21-8f10-4de0-9458-51117e113f67")
+		(property "Reference" "C3"
+			(at 118.11 44.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 118.11 47.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 121.92 41.6052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35ba11c1-9ad7-4158-8ea7-40bcc12f7533")
+		)
+		(pin "1"
+			(uuid "ac224ec2-bc3e-47c6-b4b4-87401573ee96")
+		)
+		(instances
+			(project "6d_mouse"
+				(path "/86a2bcde-12ae-4cd8-a215-c4728955bebf"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 110.49 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a314cda2-8f3e-429d-93dc-31c3ad05a52a")
+		(property "Reference" "#PWR04"
+			(at 114.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 106.68 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 110.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b213b50d-4b06-4456-98c5-324943d3bb86")
+		)
+		(instances
+			(project "6d_mouse"
+				(path "/86a2bcde-12ae-4cd8-a215-c4728955bebf"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Management:SiP32431DR3")
 		(at 64.77 67.31 0)
 		(unit 1)
@@ -3036,88 +3011,6 @@
 			(project "6d_mouse"
 				(path "/86a2bcde-12ae-4cd8-a215-c4728955bebf"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Magnetic:TLV493D")
-		(at 96.52 44.45 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b406f4db-55d9-4432-8903-ea00a268b0ef")
-		(property "Reference" "U1"
-			(at 103.632 37.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TLV493D"
-			(at 103.632 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 97.79 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-TLV493D-A1B6-DS-v01_00-EN.pdf?fileId=5546d462525dbac40152a6b85c760e80"
-			(at 100.33 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low power 3D magnetic sensor, I2C interface, SOT-23-6"
-			(at 96.52 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2e58e0f0-53fd-454e-ad02-803f90731200")
-		)
-		(pin "6"
-			(uuid "029c9219-45d8-4bcc-b786-a2192abc36e8")
-		)
-		(pin "4"
-			(uuid "ebacb9f3-f9e8-48f3-ade7-40ea1a452c0c")
-		)
-		(pin "5"
-			(uuid "81af3267-1fe4-436a-bffa-acf5b990c7d4")
-		)
-		(pin "1"
-			(uuid "273303ec-0a5b-4534-99f6-cadf9ab8a837")
-		)
-		(pin "2"
-			(uuid "03f725de-40c1-439f-a0c8-ab0072f133bf")
-		)
-		(instances
-			(project "6d_mouse"
-				(path "/86a2bcde-12ae-4cd8-a215-c4728955bebf"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3249,6 +3142,154 @@
 			(project "6d_mouse"
 				(path "/86a2bcde-12ae-4cd8-a215-c4728955bebf"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.36 64.77 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "daf5e4c6-6316-4eb6-ae91-37d62945fffa")
+		(property "Reference" "C2"
+			(at 86.36 68.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 86.36 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 90.17 65.7352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 86.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16ad8dd8-9b96-4408-8a7e-3a9e9ac796ff")
+		)
+		(pin "1"
+			(uuid "a9e2c0be-6ac7-4fc7-bf26-f86f6c91a6a1")
+		)
+		(instances
+			(project "6d_mouse"
+				(path "/86a2bcde-12ae-4cd8-a215-c4728955bebf"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "vik:TMAG5273")
+		(at 118.11 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1b23270-0166-4da7-b22f-1a566e1b2ee3")
+		(property "Reference" "U5"
+			(at 118.11 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TMAG5273"
+			(at 118.11 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 118.11 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmag5273.pdf"
+			(at 118.364 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3D Hall Effect Sensor"
+			(at 117.856 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9ca43bdc-fbd5-43a0-928b-a4b02d51834f")
+		)
+		(pin "5"
+			(uuid "4d9c4f8c-711e-45d5-8ede-a3f7a2b06ca0")
+		)
+		(pin "3"
+			(uuid "637b83ca-faf4-4d64-8e2e-71465cdf309b")
+		)
+		(pin "2"
+			(uuid "2ba01b9a-77c9-43e9-94a2-ffb2cb4d0f31")
+		)
+		(pin "6"
+			(uuid "3e36d67a-c3cb-4f1a-bb2a-62c2bb1fffd1")
+		)
+		(pin "1"
+			(uuid "29e37fe1-81c9-4bc9-b896-88be50beb3e1")
+		)
+		(instances
+			(project "6d_mouse"
+				(path "/86a2bcde-12ae-4cd8-a215-c4728955bebf"
+					(reference "U5")
 					(unit 1)
 				)
 			)
